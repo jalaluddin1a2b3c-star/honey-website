@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Honey Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fffaf0;
+        }
+
+        header {
+            background: #f4a300;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f4a300;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 15px 0 10px;
+        }
+
+        .price {
+            font-size: 18px;
+            color: #f4a300;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #f4a300;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #d18a00;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pure Natural Honey</h1>
+    <p>100% Organic | Fresh | Chemical Free</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="products">
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38" alt="Honey">
+            <h3>Pure Natural Honey</h3>
+            <p>Rich in nutrients, boosts immunity and energy.</p>
+            <p class="price">RS 1750 — Free Delivery</p>
+            <a class="btn" href="https://wa.me/92XXXXXXXXXX">Order Now</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" alt="Honey">
+            <h3>Premium Honey</h3>
+            <p>Collected from natural forests.</p>
+            <p class="price">RS 3499 — Free Delivery</p>
+            <a class="btn" href="https://wa.me/92XXXXXXXXXX">Order Now</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone / WhatsApp: +92 XXXXXXXXXX</p>
+    <p>📍 Location: Pakistan</p>
+</div>
+
+<footer>
+    <p>© 2026 Pure Honey Store | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
